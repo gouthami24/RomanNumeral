@@ -31,7 +31,7 @@ else:
 
 # Convert text to local slang
 if st.button('Roman Numeral'):
-    roman = roman_numeral(number)
+    roman = roman_numeral(user_input)
     st.write('Roman Numeral Equivalent:', roman)
 else:
     st.write('Please Press the button.')
