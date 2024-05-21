@@ -25,7 +25,7 @@ number = int(user_input)
 if type(user_input) == int:
     st.write(f"You entered the integer: {number}")
 #except ValueError:
-else
+else:
     st.write("That's not a valid integer. Please try again.")
 
 # Convert text to local slang
