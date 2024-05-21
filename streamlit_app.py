@@ -18,7 +18,7 @@ st.title('Roman Numeral')
 # User input
 # Prompt the user to enter an integer
 user_input = st.text_area("Enter an integer for which you need the roman numeral equivalent: ")
-
+st.write(user_input)
 # Roman Numeral Equivalent
 if st.button('Roman Numeral'):
     if isinstance(user_input, int):
