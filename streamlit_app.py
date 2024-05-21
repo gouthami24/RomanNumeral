@@ -21,9 +21,10 @@ user_input = st.text_area("Enter an integer for which you need the roman numeral
 
 #try:
     # Convert the input to an integer
-number = int(user_input)
-if type(user_input) == int:
-    st.write(f"You entered the integer: {number}")
+#number = int(user_input)
+#if type(user_input) == int:
+if isinstance(user_input, int):
+    st.write(f"You entered the integer: {user_input}")
 #except ValueError:
 else:
     st.write("That's not a valid integer. Please try again.")
