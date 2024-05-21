@@ -17,7 +17,7 @@ st.title('Roman Numeral')
 
 # User input
 # Prompt the user to enter an integer
-user_input = input("Enter an integer for which you need the roman numeral equivalent: ")
+user_input = st.text_area("Enter an integer for which you need the roman numeral equivalent: ")
 
 try:
     # Convert the input to an integer
