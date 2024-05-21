@@ -19,11 +19,13 @@ st.title('Roman Numeral')
 # Prompt the user to enter an integer
 user_input = st.text_area("Enter an integer for which you need the roman numeral equivalent: ")
 
-try:
+#try:
     # Convert the input to an integer
     number = int(user_input)
+if type(number)= int 
     st.write(f"You entered the integer: {number}")
-except ValueError:
+#except ValueError:
+else
     st.write("That's not a valid integer. Please try again.")
 
 # Convert text to local slang
